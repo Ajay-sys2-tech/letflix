@@ -9,13 +9,13 @@ export default async function Home({searchParams}) {
 
   const data = await res.json();
   if(!res.ok){
-    throw new Error('Failed to fetch data');
+    throw new Error('Failed to fetch data');    
   }
 
   const results = data.results;
   return (
     <div>
-    <Results />
+      <Results />
     </div>
   )
 }
