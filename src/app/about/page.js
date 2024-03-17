@@ -10,7 +10,7 @@ export default function Page () {
             increased to the top 150 contributors, and for 2010 to the top 250.
         </p>
         <p>
-            User profile pages show a user&apos;s registration date and, optionally, their personal ratings of titles. 
+            User profile pages show a users registration date and, optionally, their personal ratings of titles. 
             Since 2015, badges can be added showing a count of contributions. These badges range from total 
             contributions made to independent categories such as photos, trivia, and biographies. If a registered 
             user or visitor is in the entertainment industry and has an IMDb page, they can add photos through IMDbPRO.
@@ -19,7 +19,7 @@ export default function Page () {
 
         <p>
             The title and talent pages of IMDb are accessible to all users, but only registered and logged-in users
-            can submit new material and suggest edits to existing entries. Most of the site&apos;s data has been provided 
+            can submit new material and suggest edits to existing entries. Most of the sites data has been provided 
             by these volunteers. Registered users with a proven track record are able to add and make corrections to 
             cast lists, credits, and some other data points. However, the addition and removal of images, and 
             alterations to titles, cast and crew names, character names, and plot summaries are subject to an approval 

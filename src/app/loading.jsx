@@ -1,10 +1,10 @@
-import React from 'react'
+import Image from "next/image"
 
 export default function Loading
 () {
   return (
     <div className='flex justify-center m-10'>
-        <img className='h-46' src='spinner.svg' alt='laoding...' />
+        <Image width={150} height={150} className='h-46' src='spinner.svg' alt='laoding...' />
     </div>
   )
 }
