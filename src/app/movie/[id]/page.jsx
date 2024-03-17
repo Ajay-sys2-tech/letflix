@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { useSearchParams } from 'next/navigation';
 const API_KEY = process.env.API_KEY;
 
 export default async function MoviePage({ params }) {
