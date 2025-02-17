@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🎬 Movie Search App
+A responsive and feature-rich movie search application built with Next.js and styled using Tailwind CSS. This app leverages the TMDb API to fetch and display movie data, offering users a seamless experience with modern features like infinite scrolling and dark mode.
 
-## Getting Started
+Key Features:
+Infinite Scrolling: Loads more movies as you scroll, providing a smooth and uninterrupted browsing experience.
 
-First, run the development server:
+Dark Mode: Toggle between light and dark themes for comfortable viewing in any lighting condition.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Responsive Design: Fully optimized for mobile, tablet, and desktop screens using Tailwind CSS.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Search Functionality: Easily search for movies by title, with real-time results powered by the TMDb API.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Movie Details: Click on any movie to view detailed information, including ratings, release date, and overview.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Tech Stack:
+Next.js: For server-side rendering and optimized performance.
 
-## Learn More
+Tailwind CSS: For utility-first, responsive styling.
 
-To learn more about Next.js, take a look at the following resources:
+TMDb API: For fetching movie data and images.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+React Hooks: For state management and side effects.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+How to Run:
+Clone the repository.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Install dependencies using npm install.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Add your TMDb API key to the .env file.
+
+Run the app using npm run dev.
+
+Open your browser and navigate to http://localhost:3000.
+
+Why This Project?
+This project showcases modern web development practices, combining a powerful frontend framework (Next.js) with a utility-first CSS framework (Tailwind CSS) to create a fast, responsive, and user-friendly application. It’s a great example of how to integrate third-party APIs and implement advanced features like infinite scrolling and theme toggling.
+
+Feel free to explore, contribute, or use this as a template for your own projects! �
+
+Let me know if you'd like to tweak anything further! 🚀
